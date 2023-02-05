@@ -1,6 +1,6 @@
 /*
 
-    Cookie v0.1a
+    Cookie v0.2a
     Copyright (c) 2023 Derek May
 
 
