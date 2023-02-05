@@ -1,0 +1,22 @@
+Goto: https://www.msys2.org
+
+Click: msys2-x86_64-20230127.exe
+
+In MSYS2 UCRT64 Run:
+pacman -S mingw-w64-ucrt-x86_64-gcc
+pacman -S --needed base-devel mingw-w64-x86_64-toolchain
+g++ --version
+
+Add to PATH:
+Edit the system environment variables...>Environment Variables...>Path>New
+C:\msys64\mingw64\bin
+C:\msys64\usr\bin
+
+Test with:
+cmd>Right click>Run as administrator>Yes>g++ --version
+
+Create shortcut:
+Right click>Create shortcut
+
+Icon:
+Right click>Properties>Change Icon...>Browse>Find icon.ico in assets
