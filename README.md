@@ -1,7 +1,6 @@
 /*
 
     Cookie v0.1a
-    cookie.cpp
     Copyright (c) 2023 Derek May
 
 
@@ -28,7 +27,6 @@
 /*
     
     Cookie:
-    (cookie.cpp)
 
     A free and open-source console-based program which finds and flags empty masks.
 
